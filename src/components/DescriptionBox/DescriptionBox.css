@@ -1,0 +1,43 @@
+.descriptionbox {
+    background-color: white;
+    color: #333; /* Grey color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.descriptionbox-content {
+    display: flex;
+}
+
+.descriptionbox-description,
+.descriptionbox-reviews {
+    flex: 1;
+}
+
+.descriptionbox-navigator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.description-box-nav-box {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #333; /* Grey border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.description-box-nav-box:hover {
+    background-color: #333; /* Grey background on hover */
+    color: #fde1ff; /* Light pink text color on hover */
+}
+
+.description-box-nav-box.fade {
+    opacity: 0.5;
+}
+
+.descriptionbox-description p {
+    line-height: 1.5;
+}

@@ -1,0 +1,125 @@
+.cartitems{
+    margin:100px 170px;
+
+}
+
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.carticon-product-icon{
+    height: 62px;
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+
+.cartitems-down {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #333; /* Grey color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cartitems-total {
+    flex: 1;
+}
+
+.cartitems-total h1 {
+    margin-bottom: 20px;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cartitems-total-item p {
+    flex: 1;
+}
+
+.cartitems-total-item hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Grey border */
+    margin: 10px 0;
+}
+
+.cartitems-total-item h3 {
+    flex: 1;
+}
+.cartitems-total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cartitems-promocode {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cartitems-promocode p {
+    margin-bottom: 10px;
+}
+
+.cartitems-promobox {
+    display: flex;
+}
+
+.cartitems-promobox input[type="text"] {
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Grey border */
+}
+
+.cartitems-promobox button {
+    background-color: #333; /* Grey background */
+    color: #ffff; /* Light pink text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.cartitems-promobox button:hover {
+    background-color: #555; /* Darker grey background on hover */
+}
